@@ -1,0 +1,26 @@
+# macOS / editor junk
+.DS_Store
+Thumbs.db
+.~lock.*
+~$*
+
+# Office source files — not part of the website
+*.xlsx
+*.docx
+*.doc
+
+# HEIC originals — browsers can't display them; we deploy the converted .JPG versions
+*.HEIC
+*.heic
+
+# Old filename (we now use index.html)
+hudiworks.html
+
+# Unused/legacy assets folder
+gallery_images/
+
+# Node/build artifacts (not currently used, but future-proofing)
+node_modules/
+.netlify/
+.vercel/
+dist/
